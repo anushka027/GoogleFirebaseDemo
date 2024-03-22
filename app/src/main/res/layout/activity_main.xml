@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/lightblue"
+    >
+
+    <ImageView
+        android:id="@+id/google_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/google"
+        android:layout_above="@+id/google_btn"
+        android:layout_centerHorizontal="true"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/google_btn"
+        android:text="@string/google"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/darkblue"
+        />
+
+
+</RelativeLayout>
